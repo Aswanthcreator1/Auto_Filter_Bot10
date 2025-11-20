@@ -3,7 +3,7 @@
   <img src="https://telegra.ph/file/79bd83439254ed9c4bbca.jpg" alt="MatRixBotz LOGO">
 </p>
 <h1 align="center">
-  <b> 𝙋𝙀𝙏𝙀𝙍 𝙋𝘼𝙍𝙆𝙀𝙍 𝐁𝐎𝐓</b>
+  <b> 𝙋𝙀𝙏𝙀 𝙋𝘼𝙍𝙆𝙀𝙍 𝐁𝐎𝐓</b>
 </h1>
 
 <a href="https://github.com/matrixbotz0/PETER-PARKER-BOT"><img src="https://img.shields.io/github/stars/matrixbotz0/PETER-PARKER-BOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
