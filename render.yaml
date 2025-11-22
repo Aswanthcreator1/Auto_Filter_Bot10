@@ -1,34 +1,35 @@
 services:
   - type: web
-    plan: free
     name: PETER-PARKER-BOT
-    env: python
+    plan: free
+    runtime: python
+    repo: https://github.com/matrixbotz0/PETER-PARKER-BOT.git
+    branch: main
+
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    name: mybot
-    runtime: python
-    env:
-      pythonVersion: 3.12.4
-    
-     repo: https://github.com/matrixbotz0/PETER-PARKER-BOT.git      
-    branch: main
+
     envVars:
-      - key: BOT_TOKEN 
+      - key: BOT_TOKEN
         sync: false
-      - key: API_ID 
+      - key: API_ID
         sync: false
-      - key: API_HASH 
+      - key: API_HASH
         sync: false
       - key: AUTH_CHANNEL
         sync: false
       - key: DATABASE_NAME
         sync: false
-      - key: DATABASE_URL 
-        sync: false 
-      - key: PICS 
+      - key: DATABASE_URL
+        sync: false
+      - key: PICS
         sync: false
       - key: ADMINS
-        sync: false    
+        sync: false
       - key: LOG_CHANNEL
         sync: false
-    autoDeploy: false 
+
+    env:
+      pythonVersion: 3.10.8
+
+    autoDeploy: false
