@@ -100,13 +100,13 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
-REQ_CHANNEL = environ.get("REQ_CHANNEL", "-1001766697373")
+REQ_CHANNEL = environ.get("REQ_CHANNEL", "-1003082828281")
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 #No_result
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', True))
-NO_RESULTS_CHANNEL = int(environ.get("NO_RESULTS_CHANNEL", "-1001854325233"))
+NO_RESULTS_CHANNEL = int(environ.get("NO_RESULTS_CHANNEL", "-1003082828281"))
 
 # Others
 
@@ -120,7 +120,7 @@ MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/MLZ_BOTZ")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/fileschannellls")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺...')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001854325233'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003082828281'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MLZ_BOTZ_SUPPORT')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
