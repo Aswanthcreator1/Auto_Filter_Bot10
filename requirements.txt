@@ -1,9 +1,12 @@
 pyrogram>=2.0.30
 tgcrypto
+
+# MongoDB stack compatible with Python 3.10
 pymongo[srv]==3.12.3
 motor==2.5.1
-marshmallow>=3.20.0
+marshmallow==3.14.1
 umongo==3.0.1
+
 requests
 bs4
 cinemagoer
@@ -17,7 +20,9 @@ youtube_search
 youtube-search-python==1.4.6
 yt-dlp
 youtube-dl
+
 aiohttp==3.7.4
+
 gTTS
 googletrans==3.1.0a0
 telegraph
@@ -34,5 +39,5 @@ Pillow
 speedtest-cli
 python-dotenv
 
-# ⭐ Added to fix Render build
-lxml>=5.2.0
+# lxml: works perfectly on Python 3.10 (no build errors)
+lxml==4.9.3
