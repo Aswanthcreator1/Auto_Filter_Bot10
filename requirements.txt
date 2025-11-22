@@ -17,7 +17,6 @@ youtube_search
 youtube-search-python==1.4.6
 yt-dlp
 youtube-dl
-requests
 aiohttp==3.7.4
 gTTS
 googletrans==3.1.0a0
@@ -34,3 +33,6 @@ psutil==5.9.4
 Pillow
 speedtest-cli
 python-dotenv
+
+# ⭐ Added to fix Render build
+lxml>=5.2.0
