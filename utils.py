@@ -1,6 +1,6 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, ADMINS, REQ_CHANNEL
+from info import AUTH_CHANNEL,LOG_CHANNEL,LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, ADMINS, REQ_CHANNEL
 from imdb import Cinemagoer
 from database.join_reqs import JoinReqs as db2
 import asyncio
